@@ -5,9 +5,11 @@
 alert(
   `Welcome to our Javascript Pizzeria. Ready to Start? - Click 'OK' to begin.`
 )
-
+let yourName = prompt("Please enter your name below:");
+  alert(`Nice to meet you, ${yourName}`);
+  
 // Step 2 - Food choice
-// Your code goes here
+
 
 // Step 3 - Subtype choice
 // Your code goes here
